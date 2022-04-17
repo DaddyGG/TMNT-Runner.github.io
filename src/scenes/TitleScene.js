@@ -39,7 +39,7 @@ export default class TitleScene extends Phaser.Scene {
     const title = this.make.text({
       x: this.width / 2,
       y: this.height / 2 - 140,
-      text: 'The official Hapebeast game',
+      text: 'The official TMNT game',
       style: {
         fontSize: '55px',
         fill: '#ffffff',

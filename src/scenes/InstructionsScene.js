@@ -19,7 +19,7 @@ export default class Instructions extends Phaser.Scene {
     const topIns = this.make.text({
       x: this.width / 2,
       y: 120,
-      text: 'Our primal hape, DIGIMENTAL, is running through the NFTs\' jungle to become the most famous HAPE in the NFT\'s history !',
+      text: 'Our ninja turtle Michelangelo has been missioned by master Splinter to know what is happening in the NFT space',
       style: {
         fontSize: '45px',
         fill: '#fff',
@@ -61,7 +61,7 @@ export default class Instructions extends Phaser.Scene {
 const discord = this.make.text({
       x: this.width - 335,
       y: 305,
-      text: 'hapebeast',
+      text: 'TMNT',
       style: {
         fontSize: '45px',
         fill: '#ff0000',
@@ -70,7 +70,7 @@ const discord = this.make.text({
     }).setInteractive({ useHandCursor: true });
     discord.setOrigin(0.5, 0.5);
   discord.on('pointerdown', () => {
-    window.open('https://discord.gg/hapebeast')
+    window.open('https://discord.gg/theturtlelair')
   })
     const title = this.make.text({
       x: this.width / 2,

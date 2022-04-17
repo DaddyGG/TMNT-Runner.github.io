@@ -23,7 +23,7 @@ export default class Boot extends Phaser.Scene {
     const title = this.make.text({
       x: this.width / 2,
       y: this.height / 2,
-      text: 'The official Hapebeast game',
+      text: 'The official TMNT game',
       style: {
         fontSize: '65px',
         fill: '#ffffff',
