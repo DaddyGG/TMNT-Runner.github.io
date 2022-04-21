@@ -51,7 +51,7 @@ export default class TitleScene extends Phaser.Scene {
     const created = this.make.text({
       x: 4*this.width / 5 +50 ,
       y: this.height-40,
-      text: "Created by Daddy#7608 for TMNT",
+      text: "Created by Daddy#7608",
       style: {
         fontSize: '20px',
         fill: '#fff',
